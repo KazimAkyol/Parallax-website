@@ -26,3 +26,25 @@ body{
     background-size: cover;
     height: 100vh;
 }
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.photo-2{
+    background-image: url(./img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title-2{
+    text-align: center;
+}
