@@ -57,3 +57,29 @@
     padding: 2rem;
 }
 
+.style2{
+    text-transform: capitalize;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.2rem;
+    padding: 0.7rem;
+}
+
+.logo{
+    width: 20rem;
+}
+
+.par{
+    text-align: center;
+    padding: 7rem 5rem;
+    line-height: 1.8rem;
+}
+
+.par-light{
+    background-color: rgb(241, 241, 241);
+    color: #666;
+}
+
+.par-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
