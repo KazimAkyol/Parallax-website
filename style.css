@@ -2,49 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
-.title{
-    color: white;
-    font-size: 20px;
-    background-color: #4C4C4C;
-    margin: 620px;
-    padding: 15px;
-    text-align: center;
-    margin-top: 310px;
-    font-family: sans-serif;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    
-}
-
-body{
-    background-image: url("./img/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+.total{
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.first-page{
+    background-image: url(./img/bg.jpg);
     height: 100vh;
 }
-
-h2{
-    text-align: center;
-}
-
-p{
-    text-align: justify;
-    font-size: 20px;
-}
-
-.photo-2{
+.second-page{
     background-image: url(./img/bg2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+    height: 100vh;
+}
+.third-page{
+    background-image: url(./img/bg3.jpg);
+    height: 100vh;
+}
+.fourth-page{
+    background-image: url(./img/bg4.jpg);
+    height: 100vh;
+}
+.fifth-page{
+    background-image: url(./img/bg.jpg);
     height: 100vh;
 }
 
-.title-2{
+.container{
     text-align: center;
+    position: relative;
+    top: 45%;
 }
+
+.header{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: black;
+    letter-spacing: 0.5rem;
+
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.style1{
+    text-transform: uppercase;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.6rem;
+    padding: 2rem;
+}
+
